@@ -1,0 +1,66 @@
+#link-name {
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(15, 15, 15, .925);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    height: 25px;
+    width: 180px;
+}
+
+.button {
+    display: none;
+}
+
+#link-url {
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(15, 15, 15, .925);
+    color: white;
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    width: 180px;
+    margin-top: 5px;
+}
+
+#link-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    /* align-items: flex-start; */
+}
+
+.link-id {
+    display: flex;
+   
+    /* order:0; */
+   
+}
+
+.link-icon {
+    display: flex;
+    /* order:1; */
+    margin-top: 10px;
+    margin-left: 45%;
+
+    
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+#link-id {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    width: 60px;
+}
+
+.submit {
+    display: none;
+}

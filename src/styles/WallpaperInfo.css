@@ -1,0 +1,70 @@
+/*************************
+  WallpaperInfo Component
+**************************/
+
+#WallpaperInfo {
+  font-weight: 300;
+  height: 60px;
+  width: 100%;
+}
+
+.place, .name, .icon {
+  opacity: 0.7;
+}
+
+.place {
+  font-size: 14px;
+  position: absolute;
+  bottom: 25px;
+
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: bottom 0.5s ease;
+}
+
+.source {
+  text-align: left;
+  position: absolute;
+  bottom: 22px;
+  opacity: 0;
+  
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wiki-link {
+  text-decoration: none;
+  color: black;
+}
+
+.name {
+  font-size: 11px;
+  margin-right: 5px;
+  color: #fff;
+  text-shadow: 1px 1px #bbb;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+/********************
+    Hover Effects 
+*********************/
+
+#WallpaperInfo:hover .source {
+  opacity: 1;
+  bottom: 13px;
+}
+
+#WallpaperInfo:hover .place {
+  bottom: 35px
+}
+
+.icon:hover, .name:hover {
+  cursor: pointer;
+  opacity: 1;
+}

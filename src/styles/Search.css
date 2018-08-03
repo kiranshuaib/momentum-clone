@@ -1,0 +1,45 @@
+/********************
+   Search Component 
+*********************/
+
+#Search {
+  margin-left: 3px;
+  height: 60px;
+}
+
+.Search__Wrapper {
+  padding: 17px 6px 0px 7px;
+}
+
+/**********************
+  SearchForm Component 
+***********************/
+
+#Search__Form {
+  margin: 2px 0 0 10px;
+}
+
+#Search__Form input[type=text] {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 13px;
+}
+
+/********************
+    Hover Effects 
+*********************/
+
+#Search:hover {
+  cursor: pointer;
+}
+
+/********************
+    Click Event  
+*********************/
+
+.add-line {
+  display: flex;
+  border-bottom: 2.4px solid;
+  height: 46px; 
+}

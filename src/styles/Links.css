@@ -1,0 +1,71 @@
+/********************
+   Links Component
+*********************/
+
+#Links {
+  padding: 20px 8px 20px 20px;
+  height: 20px;
+}
+
+/********************
+    Links Modal
+*********************/
+
+.Links__Modal {
+  width: 239px;
+  height: 150px;
+  background-color: rgba(15,15,15,.925);
+  margin-top: 63px;
+  margin-left: 5px;
+  color: white;
+  outline: none;
+  border-radius: 3px;
+}
+
+.Links__Modal__Content {
+  /* margin-left: 15px; */
+}
+
+.Links__Modal ul {
+  padding-left: 0;
+  padding-top: 12px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.Links__List {
+  list-style-type: none;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.Links__List a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.Links__List a svg {
+  margin-right: 7px;
+}
+
+.Links__Modal p {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 0;
+  padding-left: 15px;
+}
+
+/********************
+    Hover Effects 
+*********************/
+
+#Links:hover {
+  cursor: pointer;
+}
+
+.Links__Modal p:hover {
+  cursor: pointer;
+}

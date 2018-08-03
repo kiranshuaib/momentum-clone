@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "Momentum Clone | Geckos Team 0 - Chingu Voyage 5",
+	"description": "A clone of the Momentum Chrome Extension.",
+	"version": "1",
+	"author": "Jon Maldia, Nari Roh, Kiran Shuaib",
+
+	"browser_action": {
+		"default_popup": "index.html",
+		"default_icon": "tab-icon.png",
+		"default_title": "Momentum Clone | Geckos 0"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": ["activeTab"]
+}

@@ -1,0 +1,73 @@
+/********************
+   Settings Component
+*********************/
+.Settings__Modal__Content * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.Settings__Modal__Content li {
+    list-style: none;
+    padding: 7px 0;
+}
+
+.Settings__Modal__Content a {
+    text-decoration: none;
+    color: #cecece;
+}
+
+.Settings {
+    padding: 15px 20px;
+    width: 70px;
+    font-size: 22px;
+}
+  
+/********************
+    Settings Modal
+*********************/
+
+.Settings__Modal {
+    margin-top: 63px;
+    margin-left: 5px;
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    background-color: rgba(15,15,15,.925);
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
+
+.Settings__Modal__Content {
+    display: flex;
+}
+
+.Settings__Left {
+    padding: 34px 20px 20px 20px;
+    width: 180px;
+    height: 100vh;
+    border-right: 1px solid #cecece;
+}
+
+.Settings__Right {
+    padding: 34px 34px 20px 34px;
+    width: 100%;
+    overflow: scroll;   
+}
+
+.Settings__Right li {
+    border-bottom: 1px solid #cecece;
+}
+
+
+/********************
+    Hover Effects 
+*********************/
+
+.Settings span:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+/********************
+   Quotes Component
+*********************/
+
+#Quote {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+  height: 60px;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.Quote__Container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  position: absolute;
+  bottom: 20px;
+
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+	transition: bottom 0.5s ease;
+}
+
+.Quote__Container p {
+	font-size: 16px;
+}
+
+.Quote__Container span {
+	font-size: 24px;
+}
+
+.Action__Container {
+  max-width: 100%;
+  opacity: 0;
+  position: absolute;
+  bottom: 20px;
+
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/********************
+  Actions Component
+*********************/
+
+.Actions {
+	display: flex;
+  align-items: center;
+}
+
+#quote-author {
+	font-size: 14px;
+  /* opacity: 0.6; */
+}
+
+#quote-heart {
+  font-size: 23px;
+  padding: 0 2px;
+}
+
+#quote-twitter {
+	font-size: 20px;
+}
+
+/********************
+    Hover Effects 
+*********************/
+
+#Quote:hover .Quote__Container {
+  bottom: 35px;
+}
+
+#Quote:hover .Action__Container {
+  opacity: 1;
+  bottom: 10px;
+}

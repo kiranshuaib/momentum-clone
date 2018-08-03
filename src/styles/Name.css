@@ -1,0 +1,42 @@
+div {
+    overflow: hidden;
+}
+
+#greeting {
+    font-size: 337.5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center
+}
+
+#greeting .transition {
+    transition: transform .5s ease;
+}
+
+[contentEditable="true"].single-line {
+    white-space: nowrap;
+    /* width: 100px; */
+    /* max-width: 3em; */
+    min-width: 1.5em;
+    overflow: hidden;
+}
+
+[contentEditable="true"].single-line br {
+    display: none;
+}
+
+[contentEditable="true"].single-line * {
+    display: inline;
+    white-space: nowrap;
+}
+
+[contentEditable="false"] {
+    min-width: 1.5em;
+    margin-bottom: -8px;
+    border-bottom: 3px solid #ffffff;
+    cursor: auto;
+}
+
+#greeting {
+    display: inline-flex;
+    justify-content: center;
+}
