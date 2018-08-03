@@ -3,6 +3,7 @@
 Our group will be cloning the [Momentum Extension](https://www.google.com/search?q=momentum+extension&oq=momentum+&aqs=chrome.0.69i59j0l2j69i60j69i57j69i61.1960j0j1&sourceid=chrome&ie=UTF-8). The extension is a home page replacement on the Chrome browser. It can be accessed by opening a new window or tab. 
 
 To see the live demo 👉 https://chingu-voyage5.github.io/Geckos-Team-0/
+                        https://kiranshuaib.github.io/momentum-clone/
 
 ## Features for the MVP
 * Time
